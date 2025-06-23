@@ -1,14 +1,63 @@
-This Dispensary Management System streamlines healthcare services by enabling real-time doctor booking and efficient patient management across multiple dispensaries. Users can register, book available doctors, and track the current patient number in real time. This feature helps patients estimate their waiting time and decide when to arrive at the dispensary, reducing unnecessary crowding.
-Doctors can manage their appointments and issue digital prescriptions, which are automatically sent to the pharmacy. Patients can then collect their prescribed medicines without delay.
-By integrating real-time tracking and seamless doctor-patient interactions, this system enhances efficiency, minimizes waiting times, and improves the overall healthcare experience.
+# 🏥 Medinet — Dispensary Management System
+
+**Medinet** is a web-based Dispensary Management System designed to streamline healthcare services across multiple dispensaries. It enables real-time doctor booking, efficient patient management, and smooth pharmacy operations — all in one platform.
+
+## 🚀 Project Overview
+
+Patients can register, book available doctors, and track the current patient number in real-time. This allows them to estimate waiting times and arrive just in time — reducing crowding and delays.
+
+Doctors manage appointments and issue digital prescriptions, which are instantly sent to the pharmacy. Pharmacists can then dispense medicine without waiting for printed slips. 
+
+Admins oversee all user roles and manage dispensary details efficiently.
+
+By integrating real-time tracking and seamless doctor–patient–pharmacy interaction, Medinet enhances healthcare efficiency and patient satisfaction.
+
+---
+
+## 🔑 Key Features
+
+1️⃣ **Patient Registration**  
+2️⃣ **Three-Step Role Registration:** Dispensary ➡️ Doctor ➡️ Pharmacist  
+3️⃣ **Unified Login System**  
+   - One login form for all 4 user types  
+   - Redirects to the relevant dashboard based on the role  
+4️⃣ **Doctor Interface**  
+   - View bookings, update availability, issue prescriptions  
+5️⃣ **Pharmacy Interface**  
+   - Access prescriptions issued by doctors  
+   - Mark medicine as dispensed  
+6️⃣ **Admin Interface**  
+   - Manage dispensaries, doctors, pharmacists, and patients  
+7️⃣ **Patient Interface**  
+   - Search and select a dispensary  
+   - Book an available doctor  
+   - Receive a queue number and track it in real time  
+   - ⏳ *Waiting Time Estimation* system to help reduce crowding
+
+---
+
+## 🛠️ Technologies Used
+
+- Frontend: HTML, CSS, JavaScript, PHP
+- Backend: PHP (with MySQL)
+- Database: MySQL
+- Local Server: XAMPP
+
+---
+
+## 👤 Developed By
+
+**Chamya Yuganthi Munasinghe**  
+CS  Undergraduate – University of Sri Jayewardenepura  
+
+> 💻 Developed key modules:  
+> - Patient Registration  
+> - Login system (multi-role)  
+> - Frontend UI for login & registration  
+> - Backend login logic for all user types  
+> - Database integration
+
+---
 
 
-Project features
 
-1⃣ Register patients 
-2⃣ Register Dispensary ➡️ doctor ➡️ phormecist ( 3 steps )
-3⃣ Login (userla 4 denatama eka login ekak thiyenne user anuva adala interface ekata yavanava)
-4⃣ Doctor interface
-5⃣ Pharmacy interface
-6⃣ Admin interface
-7⃣ Patient interface (search and select dispancery booking and get number)
